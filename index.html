@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>=== World Famous Artist ===</title>
+    <style>
+        html{
+            background-color: rgb(200, 175, 112);
+            margin:0;
+            padding:0;
+        }
+        body{
+            /* background-image:linear-gradient (to bottom right, darkgoldenrod, lightyellow, darkgoldenrod) */
+            background-color: rgb(248, 245, 205);
+            box-shadow:0px 0px 5px 0.5px rgb(171, 150, 97);
+            display:flex;
+            margin:0 10%;
+        }
+        header{
+            color:rgb(255, 255, 255);
+            background-color: rgb(247, 247, 182);
+            text-align: center;
+            margin: 30px;
+            padding-top: 50px;
+            border-left:10px rgb(255, 255, 255) solid;
+            border-top: 10px rgb(255, 255, 255) solid;
+            /* border-right:3px rgb(253, 243, 162) solid; */
+            border-bottom: 3px rgb(253, 243, 162) solid;
+            box-shadow: 0.5px 0px 10px darkgoldenrod;
+            border-radius: 50%;
+            /* padding:auto; */
+            flex: 0.5;
+        }
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: -0.5px -0.5px rgb(145, 137, 63), 0.5px 0.5px #333
+        }
+        h1{
+            font-size: 32px;
+            text-shadow: 0.5px 0.5px rgb(142, 132, 58), -0.5px -0.5px #444
+        }
+        h4{
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        article{
+            background-color:rgb(234, 223, 160);
+            flex:1;
+            padding:25px;
+            /* box-shadow:0px 0px 5px 0.5px rgb(171, 150, 97); */
+        }
+        main{
+            flex:3.5;
+            margin-bottom: 0px;
+            box-shadow:0px 0px 5px 0.5px rgb(171, 150, 97);
+        }
+        nav{
+            display:flex;
+            flex-wrap: wrap;
+            /* border:0px; */
+            /* border-bottom:1px solid;
+            border-image-width:auto;
+            border-image-repeat:no repeat;
+            border-image-source: url(img/pattern.png); */
+            /* box-shadow:0px 0px 5px 0.5px rgb(171, 150, 97); */
+        }
+        .nav-img{
+            width:50px;
+            margin-left: 25px;
+            margin-top: 20px;
+            /* margin-right: 25px; */
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0.5px 0px 5px darkgoldenrod;
+            border:2px solid darkgray;
+        }
+        .pattern{
+            text-align: center;
+            /* margin:auto; */
+            /* padding: auto; */
+        }
+        .pattern>img{
+            margin-right:10px;
+
+        }
+        div.painting{
+            margin-top: -20px;
+            background-color: rgb(237, 237, 168);
+            padding-top: 30px;
+            padding-left: 50px;
+        }
+        .painting>img{
+            padding-left: 15px;
+            /* margin:auto; */
+            width:180px;
+            height:auto;
+        }
+        .bighead{
+            /* margin:auto;
+            padding:auto; */
+            width: 200px;
+            border:2px solid darkgray;
+            border-radius: 50%;
+            box-shadow: 1px 0px 10px darkgoldenrod;
+        }
+        p{
+            font-size: 13px;
+            line-height:1.5;
+            padding:0 15px;
+            margin-top: 0;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="pattern"><img src="img/pattern02.png" alt=""></div>
+        <h3>World<br> Famous<br> Artist<br></h3>
+        <h1>世<br>界<br>級<br>知<br>名<br>藝<br>術<br>家</h1>
+        <div class="pattern"><img src="img/pattern02.png" alt=""></div>
+    </header>
+    <article>
+        <div style="text-align:center;"><img class="bighead" src="img/daVinci.jpg"></div>
+        <h4>李奧納多·達·文西<br>Leonardo da Vinci</h4>
+            <p>（1452—1519），義大利文藝復興三傑之一，
+            也是整個歐洲文藝復興時期最完美的代表，是世界的藝術巨匠和科學巨匠。他是一位
+            思想深邃，學識淵博、多才多藝的畫家、寓言家、雕塑家、發明家、哲學家、音樂家、
+            醫學家、生物學家、地理學家、建築工程師和軍事工程師。他是一位天才，他一面熱心
+            於藝術創作和理論研究，研究如何用線條與立體造型去表現形體的各種問題；另一方面
+            他也同時研究自然科學，為了真實感人的藝術形象，他廣泛地研究與繪畫有關的光學、
+            數學、地質學、生物學等多種學科。
+
+            原文網址：https://kknews.cc/culture/aryzl3g.html
+            </p>
+    </article>
+    <main>
+        <nav>
+            <a href="index.html"><img class="nav-img" src="img/daVinci.jpg" alt="達文西"></a>
+            <a href="michelangelo.html"><img class="nav-img" src="img/Michelangelo.jpg" alt="米開朗基羅"></a>
+            <a href="vangogh.html"><img class="nav-img" src="img/vanGogh.jpg" alt="梵谷"></a><img class="nav-img" src="img/Monet.jpg" alt="莫內">
+            <img class="nav-img" src="img/Renoir.jpg" alt="雷諾瓦"><img class="nav-img" src="img/Rubens.jpg" alt="魯本斯">
+            <img class="nav-img" src="img/Henri Rousseau.png" alt="亨利盧梭"><img class="nav-img" src="img/JeanFrandik Millet.png" alt="米勒">
+            <img class="nav-img" src="img/Salvador Dalí.png" alt="達利">
+        </nav>
+        <div class="pattern"><img src="img/pattern02.png" alt=""><img src="img/pattern02.png" alt=""><img src="img/pattern02.png" alt=""></div>
+        <div class="painting">
+            <img src="img/deVinci/Mona_Lisa.jpg" alt=""><img src="img/deVinci/madonna-benois.jpg" alt="">
+            <img src="img/deVinci/the-baptism-of-christjpg.jpg" alt=""><img src="img/deVinci/the-lady-with-the-ermine.jpg" alt="">
+            <img src="img/deVinci/the-study-of-drapery-of-a-seated.jpg" alt=""><img src="img/deVinci/woman-s-head.jpg" alt="">
+            <img src="" alt="">
+        </div> 
+    </main>
+</body>
+</html>
